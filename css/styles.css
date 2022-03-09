@@ -1,0 +1,114 @@
+span{
+text-align: center;
+}
+body{
+  font-family: Montserrat;
+}
+h3{
+  font-family: Montserrat Black;
+  font-size: 1.5rem;
+  padding: 15px 0 5px;
+}
+h2{
+  font-family: Montserrat SemiBold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Navbar */
+
+
+.nav-link{
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-weight: lighter;
+}
+.navbar{
+padding: 0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  padding-left: 0;
+  font-family: Ubuntu;
+}
+
+
+/* Title */
+
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.heading{
+  font-family: Montserrat Black;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+.iphone-image{
+  width: 60%;
+  transform: rotate(25deg);
+}
+.btn{
+  margin-right: 1rem;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+
+
+/* Feature */
+
+
+.feature-para{
+  color: #8f8f8f;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.feature-row{
+  padding: 110px 20px 110px;
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icon-color:hover{
+  color: #ff4c68;
+}
+.icon-color{
+  color: #ef8172;
+}
+
+/* Testimonials */
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
