@@ -53,19 +53,26 @@ padding: 0 0 4.5rem;
 .iphone-image{
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 .btn{
-  margin-right: 1rem;
+  margin: 1rem 1rem;
   font-family: Montserrat;
   font-weight: bold;
+  margin-bottom: 30px;
 }
 .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 15% 8%;
 }
 
 
 /* Feature */
 
+#features{
+  background-color: #fff;
+  position: relative;
+}
 
 .feature-para{
   color: #8f8f8f;
@@ -111,4 +118,57 @@ padding: 0 0 4.5rem;
 }
 .carousel-item{
   padding: 7% 15%;
+}
+
+/* Pricing */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-coloum{
+  padding: 3% 2%;
+}
+
+/* Call To Action */
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+}
+.cta-heading{
+  font-family: Montserrat Black;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin:auto auto ;
+  width: 60%;
+  padding: 80px 0px 40px;
+}
+.btn-cta{
+  margin: 1rem 1rem;
+  font-family: Montserrat;
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+
+/* Footer */
+#footer{
+  text-align: center;
+}
+.footer-awesome{
+  padding-top: 100px;
+  padding-bottom: 20px;
+  margin: 0 10px;
+}
+
+
+@media (max-width: 1250px) {
+  #title{
+    text-align: center;
+  }
+  .iphone-image{
+    position: static;
+    transform: rotate(0);
+  }
 }
