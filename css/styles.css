@@ -1,18 +1,10 @@
-span{
-text-align: center;
-}
 body{
   font-family: Montserrat;
+  text-align: center;
+
 }
-h3{
-  font-family: Montserrat Black;
-  font-size: 1.5rem;
-  padding: 15px 0 5px;
-}
-h2{
+h1, h2, h3, h4, h5, h6{
   font-family: Montserrat SemiBold;
-  font-size: 3rem;
-  line-height: 1.5;
 }
 
 
@@ -43,6 +35,11 @@ padding: 0 0 4.5rem;
 #title{
   background-color: #ff4c68;
   color: #fff;
+  text-align: left;
+}
+.section-heading{
+  line-height: 1.5;
+  font-size: 3rem;
 }
 .heading{
   font-family: Montserrat Black;
@@ -73,7 +70,11 @@ padding: 0 0 4.5rem;
   background-color: #fff;
   position: relative;
 }
-
+.feature-heading{
+  font-family: Montserrat Black;
+  font-size: 1.5rem;
+  padding: 15px 0 5px;
+}
 .feature-para{
   color: #8f8f8f;
   width: 70%;
@@ -82,7 +83,7 @@ padding: 0 0 4.5rem;
 }
 .feature-row{
   padding: 110px 20px 110px;
-  text-align: center;
+
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -97,7 +98,7 @@ padding: 0 0 4.5rem;
 /* Testimonials */
 
 #testimonials{
-  text-align: center;
+
   background-color: #ef8172;
   color: #fff;
 }
@@ -109,7 +110,7 @@ padding: 0 0 4.5rem;
 
 #press{
   background-color: #ef8172;
-  text-align: center;
+
   padding-bottom: 3%;
 }
 .press-image{
@@ -119,15 +120,28 @@ padding: 0 0 4.5rem;
 .carousel-item{
   padding: 7% 15%;
 }
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
 
 /* Pricing */
 
 #pricing{
   padding: 100px;
-  text-align: center;
+
+}
+.card-heading{
+  font-family: Montserrat Black;
+  font-size: 1.5rem;
+  padding: 15px 0 5px;
 }
 .pricing-coloum{
   padding: 3% 2%;
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 /* Call To Action */
@@ -135,7 +149,7 @@ padding: 0 0 4.5rem;
 #cta{
   background-color: #ff4c68;
   color: #fff;
-  text-align: center;
+
 }
 .cta-heading{
   font-family: Montserrat Black;
@@ -154,18 +168,21 @@ padding: 0 0 4.5rem;
 
 /* Footer */
 #footer{
-  text-align: center;
+
 }
 .footer-awesome{
   padding-top: 100px;
   padding-bottom: 20px;
   margin: 0 10px;
 }
+.footer-text{
+  color: #8f8f8f;
+}
 
 
 @media (max-width: 1250px) {
   #title{
-    text-align: center;
+
   }
   .iphone-image{
     position: static;
